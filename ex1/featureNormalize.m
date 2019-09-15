@@ -26,7 +26,8 @@ sigma = zeros(1, size(X, 2));
 % Hint: You might find the 'mean' and 'std' functions useful.
 %       
 
-
+X = (X - mu)./sigma;
+X_norm = X;
 
 
 
